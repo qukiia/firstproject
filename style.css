@@ -1,0 +1,33 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  text-align: center;
+}
+
+header {
+    display: flex;
+    
+}
+
+/*Зроби цей сайт красивим 😉*/
+.card {
+    border: 2px solid black;
+    border-radius:15px;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
